@@ -51,4 +51,20 @@ footer {
     font-size: 0.7em; /* Make the footer text smaller */
     color: #ff66b2; /* Use the same pink color */
     padding: 10px 0; /* Add some padding for spacing */
+
+ button {
+    background-color: #ff66b2; /* Pink color */
+    color: white; /* White text */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 1em; /* Set the font size */
+    cursor: pointer; /* Make the cursor a pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #e55a9f; /* Darker pink on hover */
+}
+
 }
