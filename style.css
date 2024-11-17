@@ -1,1 +1,29 @@
+/* Set the background color to dark blue-gray */
+body {
+    background-color: #2a3d66; /* Dark blue-gray */
+    color: #ff66b2; /* Pink color for text */
+    font-family: Arial, sans-serif; /* Optional: change the font to Arial */
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some padding to the body for better spacing */
+body {
+    padding: 20px;
+}
+
+/* Make links pink and remove underline */
+a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some margin to headers for better spacing */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
 
