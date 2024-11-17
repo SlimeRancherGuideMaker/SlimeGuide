@@ -53,18 +53,30 @@ footer {
     padding: 10px 0; /* Add some padding for spacing */
 }
 
-/* Style for the button */
+/* Container for buttons to align them */
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Spread buttons out with space between */
+    align-items: center; /* Center the buttons vertically */
+    margin-top: 20px; /* Add some space from the content above */
+    width: 100%; /* Full width */
+}
+
+/* Style for the buttons */
 button {
     background-color: #ff66b2; /* Pink color */
     color: white; /* White text */
     border: none; /* Remove the border */
-    padding: 10px 20px; /* Add padding */
-    font-size: 1em; /* Set the font size */
+    padding: 20px 40px; /* Increase padding for bigger buttons */
+    font-size: 2em; /* Make the font much larger */
     cursor: pointer; /* Make the cursor a pointer on hover */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition for background color */
+    flex-grow: 1; /* Allow the button to grow to fill space */
+    margin: 0 10px; /* Space between buttons */
 }
 
+/* Button hover effect */
 button:hover {
     background-color: #e55a9f; /* Darker pink on hover */
 }
