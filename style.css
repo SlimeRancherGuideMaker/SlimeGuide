@@ -70,7 +70,7 @@ button {
     padding: 50px 250px; /* Increase padding for bigger buttons */
     font-size: 2em; /* Make the font much larger */
     cursor: pointer; /* Make the cursor a pointer on hover */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition for background color */
     flex-grow: 1; /* Allow the button to grow to fill space */
     margin: 0 10px; /* Space between buttons */
