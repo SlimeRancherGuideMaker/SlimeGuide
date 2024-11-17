@@ -67,7 +67,7 @@ button {
     background-color: #ff66b2; /* Pink color */
     color: white; /* White text */
     border: none; /* Remove the border */
-    padding: 50px 250px; /* Increase padding for bigger buttons */
+    padding: 250px 250px; /* Increase padding for bigger buttons */
     font-size: 2em; /* Make the font much larger */
     cursor: pointer; /* Make the cursor a pointer on hover */
     border-radius: 15px; /* Rounded corners */
