@@ -36,5 +36,5 @@ h1 {
 /* Center and enlarge the paragraph to match the title */
 p {
     text-align: center; /* Center the text */
-    font-size: 3em; /* Make the paragraph the same size as the title */
+    font-size: 1em; /* Make the paragraph the same size as the title */
 }
