@@ -75,6 +75,7 @@ button {
     transition: background-color 0.3s;
     flex-grow: 1;
     margin: 0 10px;
+    overflow: hidden; /* Prevent the image from overflowing */
 }
 
 /* Button hover effect */
@@ -87,9 +88,9 @@ button:hover {
     position: absolute; /* Position the image over the button */
     top: 50%; /* Center the image vertically */
     left: 50%; /* Center the image horizontally */
-    transform: translate(-50%, -50%) rotate(-45deg); /* Center the image and rotate it */
-    width: 50px; /* Adjust the size of the image */
-    height: auto; /* Maintain the aspect ratio */
+    transform: translate(-50%, -50%) rotate(-45deg) scale(0.25); /* Center, rotate, and scale image down to 25% */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
     z-index: 1; /* Ensure the image appears above the button text */
 }
 
