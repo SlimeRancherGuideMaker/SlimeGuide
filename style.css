@@ -68,10 +68,10 @@ button {
     background-color: #ff66b2;
     color: white;
     border: none;
-    padding: 20px 40px;
+    padding: 250px 250px;
     font-size: 2em;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: background-color 0.3s;
     flex-grow: 1;
     margin: 0 10px;
@@ -94,7 +94,3 @@ button:hover {
     z-index: 1; /* Ensure the image appears above the button text */
 }
 
-/* Optional: If you want to make the image responsive to the button size */
-button:hover .button-image {
-    width: 60px; /* Increase the size on hover (optional) */
-}
