@@ -5,6 +5,9 @@ body {
     font-family: Arial, sans-serif; /* Optional: change the font to Arial */
     margin: 0;
     padding: 0;
+    display: flex; /* Use flexbox to layout content */
+    flex-direction: column; /* Arrange children elements (header, main, footer) in a column */
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
 }
 
 /* Add some padding to the body for better spacing */
@@ -41,8 +44,7 @@ p {
 
 /* Style for the footer text */
 footer {
-    position: absolute;
-    bottom: 10px; /* Position the footer near the bottom */
+    margin-top: auto; /* Push the footer to the bottom of the page */
     width: 100%; /* Make sure it spans the full width of the page */
     text-align: center; /* Center the text */
     font-size: 0.8em; /* Make the text smaller */
