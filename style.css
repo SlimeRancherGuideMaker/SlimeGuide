@@ -88,7 +88,7 @@ button:hover {
     position: absolute; /* Position the image over the button */
     top: 50%; /* Center the image vertically */
     left: 50%; /* Center the image horizontally */
-    transform: translate(-50%, -50%) rotate(-45deg) scale(0.25); /* Center, rotate, and scale image down to 25% */
+    transform: translate(-50%, 10%) rotate(35deg) scale(0.25); /* Center, rotate, and scale image down to 25% */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     z-index: 1; /* Ensure the image appears above the button text */
