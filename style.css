@@ -27,3 +27,8 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+/* Center and enlarge the main title */
+h1 {
+    text-align: center; /* Center the title */
+    font-size: 3em; /* Make the title 3x bigger */
+}
