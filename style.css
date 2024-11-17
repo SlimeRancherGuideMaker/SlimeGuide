@@ -39,7 +39,8 @@ h1 {
 /* Center and enlarge the paragraph to match the title */
 p {
     text-align: center; /* Center the text */
-    font-size: 3em; /* Make the paragraph the same size as the title */
+    font-size: 2em; /* Make the paragraph slightly smaller than the title */
+    margin-top: 10px; /* Add some spacing above the paragraph */
 }
 
 /* Style for the footer text */
@@ -47,7 +48,7 @@ footer {
     margin-top: auto; /* Push the footer to the bottom of the page */
     width: 100%; /* Make sure it spans the full width of the page */
     text-align: center; /* Center the text */
-    font-size: 0.8em; /* Make the text smaller */
+    font-size: 0.8em; /* Make the footer text smaller */
     color: #ff66b2; /* Use the same pink color */
     padding: 10px 0; /* Add some padding for spacing */
 }
